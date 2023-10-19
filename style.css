@@ -1,4 +1,69 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
-    text-align: center
+    background-color: #bedeee;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+table {
+    border: 1px solid #070707;
+}
+
+td, #content a {
+    width: 25vh;
+    padding: 2pt;
+}
+
+img {
+    scale: inherit;
+    height: 100%;
+}
+
+a:link a:visited {
+    color: #342b60;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+#title_block {
+    text-align: center;
+    height: 100vh;
+}
+
+#title_text {
+    translate: 0% -50%;
+    margin-top: 50vh;
+}
+
+#title_text h1 {
+    font-size: 56pt;
+    letter-spacing: 1pt;
+    margin: 0px;
+    top:50%;
+}
+
+#content {
+    display: flex;
+    height: 50vh;
+}
+
+.content_block {
+    display: block;
+    margin-left: 25pt;
+    margin-right: 25;
+}
+
+#bottom_block {
+    display: flex;
+    height: 48pt;
+}
+
+#bottom_block p {
+    font-size: small;
 }
